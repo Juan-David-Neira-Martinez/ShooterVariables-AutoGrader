@@ -1,0 +1,526 @@
+user_id_anon,session_id,timestamp,item_id,prompt,answer_raw,answer_type,difficulty,attempt_n,time_sec,hint_used,y_label
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Todas las variables son globales.,short_text_1sent,hard,3,33.29,0,E6
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Todo valor debe ser string.,short_text_1sent,easy,2,8.05,0,E3
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,2,16.13,1,E4
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable puede empezar por número.,short_text_1sent,hard,3,27.46,1,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable local siempre modifica la global.,short_text_1sent,easy,2,59.65,1,E6
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El tipo de dato no importa.,short_text_1sent,easy,2,31.0,1,E3
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Todas las variables son globales.,short_text_1sent,medium,1,32.07,1,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,1,37.64,0,E2
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,1,27.32,0,E5
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable puede empezar por número.,short_text_1sent,easy,3,35.65,1,E4
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,El resultado es 3.,short_text_1sent,medium,1,24.93,1,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Puede llamarse con símbolos raros.,short_text_1sent,hard,1,25.87,0,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Es private,short_text_1sent,easy,1,45.68,0,OK
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,El resultado es 3.,short_text_1sent,medium,3,21.7,1,E5
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,no sé,short_text_1sent,medium,3,43.72,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,asd,short_text_1sent,easy,3,18.74,1,E1
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable puede empezar por número.,short_text_1sent,hard,3,25.98,1,E4
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,3,47.59,0,E5
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,char c = 'a';,short_text_1sent,easy,3,40.6,1,OK
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,hard,3,33.04,0,E2
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Inicializar no necesita valor.,short_text_1sent,easy,3,52.53,1,E2
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El resultado es 3.,short_text_1sent,medium,3,58.73,1,E5
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,2,50.01,1,E2
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,El resultado es 3.,short_text_1sent,easy,1,29.24,1,E5
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,El resultado es 3.,short_text_1sent,easy,1,45.22,0,E5
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Una variable puede empezar por número.,short_text_1sent,medium,3,42.33,1,E4
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,hard,2,24.69,0,E2
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Todo valor debe ser string.,short_text_1sent,medium,2,59.11,0,E3
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,2,23.17,1,E5
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Es Error de compilación,short_text_1sent,medium,1,24.56,1,OK
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Siempre debe ser entero.,short_text_1sent,hard,3,53.17,1,E3
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,3,14.02,0,E5
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,3,13.7,1,E5
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,double,short_text_1sent,easy,2,22.72,0,OK
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Siempre debe ser entero.,short_text_1sent,medium,2,41.9,0,E3
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,3,6.7,1,E6
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Todas las variables son globales.,short_text_1sent,medium,3,48.9,0,E6
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Un tipo de dato de objeto,short_text_1sent,medium,3,17.4,1,OK
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Inicializar no necesita valor.,short_text_1sent,medium,1,50.91,0,E2
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,hard,2,23.97,1,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable es una función.,short_text_1sent,hard,3,25.82,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El resultado es 3.,short_text_1sent,easy,2,36.0,1,E5
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,No existe diferencia entre local y global.,short_text_1sent,medium,1,49.21,0,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,32.05,0,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Todas las variables son globales.,short_text_1sent,easy,3,43.7,0,E6
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Es 2,short_text_1sent,medium,1,7.82,0,OK
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Inicializar no necesita valor.,short_text_1sent,easy,1,43.64,0,E2
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,6.88,0,E5
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable local siempre modifica la global.,short_text_1sent,hard,3,27.89,1,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Todo valor debe ser string.,short_text_1sent,hard,2,29.58,1,E3
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El tipo de dato no importa.,short_text_1sent,easy,1,55.96,1,E3
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Una variable es un método.,short_text_1sent,easy,3,46.61,1,E1
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Es Error de compilación,short_text_1sent,medium,2,55.26,0,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Todas las variables son globales.,short_text_1sent,easy,3,27.77,0,E6
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Una variable local siempre modifica la global.,short_text_1sent,hard,2,38.91,0,E6
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,56.06,0,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,3,21.58,0,E5
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Todas las variables son globales.,short_text_1sent,medium,2,13.62,1,E6
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,sdsd,short_text_1sent,medium,3,29.86,0,E1
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,sdsd,short_text_1sent,easy,3,16.07,1,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,3,57.43,1,E4
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,37.07,0,E6
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,3,29.91,0,E2
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El nombre no necesita tener significado.,short_text_1sent,easy,3,55.75,0,E4
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,"La respuesta es int x = 1, y = 2;",short_text_1sent,medium,1,37.51,0,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable puede empezar por número.,short_text_1sent,easy,2,52.79,0,E4
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,no entiendo,short_text_1sent,medium,3,20.02,1,E1
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,3,31.15,0,E5
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,3,24.89,1,E2
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Siempre debe ser entero.,short_text_1sent,hard,2,20.73,0,E3
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable puede empezar por número.,short_text_1sent,hard,1,41.02,0,E4
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Es 2,short_text_1sent,medium,3,22.92,0,OK
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El tipo de dato no importa.,short_text_1sent,easy,3,49.58,0,E3
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable local siempre modifica la global.,short_text_1sent,hard,1,35.61,0,E6
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,2,54.15,1,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,31.83,0,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,2,18.56,0,E4
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Una variable es una función.,short_text_1sent,medium,2,6.5,0,E1
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Un tipo de dato de objeto,short_text_1sent,medium,1,12.41,0,OK
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,char c = 'a';,short_text_1sent,easy,2,27.49,1,OK
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,40.0,1,E4
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,false,short_text_1sent,easy,3,41.63,0,OK
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Todo valor debe ser string.,short_text_1sent,hard,1,25.27,1,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,El tipo de dato no importa.,short_text_1sent,easy,2,23.22,0,E3
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,28.69,0,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Todo valor debe ser string.,short_text_1sent,easy,3,49.09,1,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,asd,short_text_1sent,easy,1,45.82,0,E1
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,2,43.35,0,E5
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El tipo de dato no importa.,short_text_1sent,medium,3,34.59,1,E3
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,No existe diferencia entre local y global.,short_text_1sent,hard,2,50.37,0,E6
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable puede empezar por número.,short_text_1sent,easy,2,52.38,0,E4
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,2,5.27,1,E4
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Inicializar no necesita valor.,short_text_1sent,hard,1,34.69,1,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,La respuesta es char c = 'a';,short_text_1sent,easy,2,20.78,0,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,no sé,short_text_1sent,easy,1,47.7,0,E1
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,La respuesta es Se genera un error de compilación,short_text_1sent,hard,2,13.9,1,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,2,28.02,1,E2
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,asd,short_text_1sent,medium,1,38.58,1,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,no se,short_text_1sent,medium,1,28.72,1,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,La respuesta es 2,short_text_1sent,medium,3,7.81,0,OK
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Siempre debe ser entero.,short_text_1sent,hard,2,11.29,0,E3
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,no entiendo,short_text_1sent,medium,2,33.71,0,E1
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Todas las variables son globales.,short_text_1sent,easy,3,23.78,1,E6
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,3,41.4,0,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,ad,short_text_1sent,hard,2,28.62,0,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Todas las variables son globales.,short_text_1sent,easy,1,57.23,1,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El nombre no necesita tener significado.,short_text_1sent,medium,2,17.37,0,E4
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,La variable no cambia después de la operación.,short_text_1sent,easy,2,56.71,1,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,hard,3,31.11,0,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El tipo de dato no importa.,short_text_1sent,easy,1,41.63,1,E3
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Puede llamarse con símbolos raros.,short_text_1sent,hard,1,15.82,0,E4
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El nombre no necesita tener significado.,short_text_1sent,medium,1,45.51,0,E4
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Una variable es una función.,short_text_1sent,medium,2,56.31,1,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,51.99,0,E2
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,No existe diferencia entre local y global.,short_text_1sent,hard,1,7.98,1,E6
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,La respuesta es final,short_text_1sent,hard,3,13.92,0,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable puede empezar por número.,short_text_1sent,easy,3,7.32,1,E4
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,No existe diferencia entre local y global.,short_text_1sent,medium,2,15.11,0,E6
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Una variable es una función.,short_text_1sent,medium,3,36.88,1,E1
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,3,11.27,1,E2
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable puede empezar por número.,short_text_1sent,easy,3,52.33,1,E4
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable es una función.,short_text_1sent,hard,2,13.3,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Es final,short_text_1sent,easy,1,38.17,0,OK
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,33.75,0,E4
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Todas las variables son globales.,short_text_1sent,easy,1,44.54,1,E6
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,no entiendo,short_text_1sent,hard,3,44.57,1,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Todo valor debe ser string.,short_text_1sent,easy,1,29.55,0,E3
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Todas las variables son globales.,short_text_1sent,medium,2,43.07,1,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,no se,short_text_1sent,hard,3,50.89,0,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,23.34,1,E4
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,1,7.54,0,E4
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,El resultado se mantiene igual que al inicio.,short_text_1sent,hard,1,17.18,0,E5
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,3,52.9,1,E4
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Es final,short_text_1sent,easy,1,48.33,1,OK
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,no sé,short_text_1sent,medium,1,20.75,0,E1
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Siempre debe ser entero.,short_text_1sent,medium,1,38.48,0,E3
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,asd,short_text_1sent,medium,3,55.86,0,E1
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,asd,short_text_1sent,easy,1,5.99,0,E1
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Puede llamarse con símbolos raros.,short_text_1sent,medium,2,35.16,1,E4
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,2,12.34,1,E6
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Todo valor debe ser string.,short_text_1sent,medium,1,30.84,1,E3
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,La variable no cambia después de la operación.,short_text_1sent,medium,2,54.84,0,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Todas las variables son globales.,short_text_1sent,hard,1,22.89,1,E6
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Siempre debe ser entero.,short_text_1sent,medium,2,13.09,0,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,La respuesta es double,short_text_1sent,easy,3,40.89,1,OK
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,47.87,0,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Inicializar no necesita valor.,short_text_1sent,hard,1,13.42,0,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable local siempre modifica la global.,short_text_1sent,hard,1,26.97,0,E6
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Es 32 bits,short_text_1sent,easy,3,13.42,0,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Inicializar no necesita valor.,short_text_1sent,easy,3,19.61,1,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,2,35.6,0,E5
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Siempre debe ser entero.,short_text_1sent,medium,3,31.84,1,E3
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,asd,short_text_1sent,medium,2,26.93,1,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,44.17,1,E2
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,28.05,0,E6
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,La respuesta es Las de clase usan static,short_text_1sent,hard,1,17.63,1,OK
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,hard,2,20.65,1,E5
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,32 bits,short_text_1sent,easy,3,6.09,1,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El nombre no necesita tener significado.,short_text_1sent,easy,1,26.66,1,E4
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Todas las variables son globales.,short_text_1sent,medium,2,49.59,0,E6
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,3,36.34,1,E5
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Es Se genera un error de compilación,short_text_1sent,hard,3,37.95,1,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Inicializar no necesita valor.,short_text_1sent,easy,3,54.93,0,E2
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,no sé,short_text_1sent,easy,3,59.63,0,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,La variable no cambia después de la operación.,short_text_1sent,medium,3,48.98,1,E5
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,El tipo de dato no importa.,short_text_1sent,medium,1,52.99,0,E3
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,La respuesta es 32 bits,short_text_1sent,easy,2,45.41,0,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,La variable no cambia después de la operación.,short_text_1sent,easy,2,31.76,1,E5
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,hard,2,39.1,0,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Todo valor debe ser string.,short_text_1sent,hard,3,56.03,0,E3
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Inicializar no necesita valor.,short_text_1sent,easy,1,32.36,0,E2
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,La respuesta es false,short_text_1sent,easy,3,12.01,1,OK
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,La variable no cambia después de la operación.,short_text_1sent,easy,3,57.11,0,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,no sé,short_text_1sent,medium,3,15.46,0,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El resultado es 3.,short_text_1sent,easy,3,51.79,1,E5
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,No existe diferencia entre local y global.,short_text_1sent,easy,2,44.59,0,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,La variable no cambia después de la operación.,short_text_1sent,hard,3,38.61,0,E5
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable es un método.,short_text_1sent,easy,3,24.71,0,E1
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,3,19.65,0,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,hard,2,9.01,1,E2
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,19.42,1,E2
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Siempre debe ser entero.,short_text_1sent,medium,2,55.85,0,E3
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Todo valor debe ser string.,short_text_1sent,medium,1,28.78,0,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Es Las de clase usan static,short_text_1sent,hard,2,29.76,1,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Puede llamarse con símbolos raros.,short_text_1sent,easy,2,21.61,1,E4
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El tipo de dato no importa.,short_text_1sent,medium,1,57.79,1,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,hard,2,54.52,1,E2
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Siempre debe ser entero.,short_text_1sent,medium,1,34.43,1,E3
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,La variable no cambia después de la operación.,short_text_1sent,medium,1,52.3,0,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,error,short_text_1sent,medium,2,46.17,1,E1
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,double,short_text_1sent,easy,3,35.64,0,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,1,28.77,1,E2
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,1,44.12,0,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El nombre no necesita tener significado.,short_text_1sent,medium,2,6.36,1,E4
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,El resultado es 3.,short_text_1sent,easy,1,15.82,0,E5
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Siempre debe ser entero.,short_text_1sent,easy,1,48.67,1,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,ad,short_text_1sent,easy,1,8.48,1,E1
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,"Es int x = 1, y = 2;",short_text_1sent,medium,1,11.85,1,OK
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Puede llamarse con símbolos raros.,short_text_1sent,medium,3,38.03,1,E4
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Una variable puede empezar por número.,short_text_1sent,easy,2,53.97,1,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Es private,short_text_1sent,easy,3,33.74,0,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,51.9,0,E6
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Todo valor debe ser string.,short_text_1sent,medium,1,7.57,1,E3
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,39.25,1,E2
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Todas las variables son globales.,short_text_1sent,easy,2,32.92,1,E6
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,2,47.37,0,E5
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,final,short_text_1sent,hard,3,26.46,0,OK
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Todo valor debe ser string.,short_text_1sent,medium,3,33.21,0,E3
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,-128 a 127,short_text_1sent,medium,2,7.65,0,OK
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,no entiendo,short_text_1sent,medium,1,6.15,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Es final,short_text_1sent,easy,1,44.93,1,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,La variable no cambia después de la operación.,short_text_1sent,easy,2,13.26,0,E5
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable es una función.,short_text_1sent,easy,1,10.32,0,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,asd,short_text_1sent,easy,1,39.26,0,E1
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,asd,short_text_1sent,medium,1,8.79,0,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Una variable es una instrucción que ejecuta código.,short_text_1sent,easy,3,8.72,0,E1
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,2,52.39,0,E6
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,32 bits,short_text_1sent,easy,2,26.83,0,OK
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,42.12,0,E5
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable es una instrucción que ejecuta código.,short_text_1sent,easy,1,59.72,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,2,26.2,1,E6
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,no entiendo,short_text_1sent,easy,2,13.09,0,E1
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,No existe diferencia entre local y global.,short_text_1sent,easy,1,7.67,1,E6
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Inicializar no necesita valor.,short_text_1sent,hard,2,8.24,0,E2
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,sdsd,short_text_1sent,easy,1,21.76,1,E1
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,error,short_text_1sent,hard,1,55.57,1,E1
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,1,21.51,1,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El resultado es 3.,short_text_1sent,easy,3,37.1,0,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El nombre no necesita tener significado.,short_text_1sent,hard,1,34.76,0,E4
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,double d = 5;,short_text_1sent,easy,2,57.94,0,OK
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Todas las variables son globales.,short_text_1sent,easy,3,25.38,1,E6
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,56.93,0,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Todas las variables son globales.,short_text_1sent,medium,3,19.53,0,E6
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Una variable puede empezar por número.,short_text_1sent,easy,2,48.48,1,E4
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El resultado es 3.,short_text_1sent,hard,1,43.2,0,E5
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,double d = 5;,short_text_1sent,easy,1,40.96,0,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable puede empezar por número.,short_text_1sent,easy,3,53.81,0,E4
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,El nombre no necesita tener significado.,short_text_1sent,medium,3,51.96,0,E4
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable puede empezar por número.,short_text_1sent,hard,3,6.24,1,E4
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,error,short_text_1sent,hard,1,56.99,1,E1
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,3,7.92,0,E4
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Las de clase usan static,short_text_1sent,hard,2,49.51,1,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,1,45.07,0,E6
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,3,35.29,0,E2
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable es una instrucción que ejecuta código.,short_text_1sent,hard,2,26.3,0,E1
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,El tipo de dato no importa.,short_text_1sent,hard,2,38.26,0,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Una variable local siempre modifica la global.,short_text_1sent,hard,2,32.85,1,E6
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,1,51.53,1,E4
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,no se,short_text_1sent,easy,2,36.03,0,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,1,19.87,0,E2
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,24.42,0,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,hard,2,23.75,1,E2
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,3,31.29,0,E2
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Una variable puede empezar por número.,short_text_1sent,easy,3,56.2,1,E4
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Una variable es un método.,short_text_1sent,easy,2,59.87,0,E1
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,No existe diferencia entre local y global.,short_text_1sent,medium,3,55.33,0,E6
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,final,short_text_1sent,hard,3,47.29,1,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,double d = 5;,short_text_1sent,easy,2,42.15,1,OK
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Inicializar no necesita valor.,short_text_1sent,medium,1,19.58,0,E2
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Una variable es una función.,short_text_1sent,medium,2,25.97,0,E1
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,3,43.97,1,E2
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Una variable es un método.,short_text_1sent,hard,2,21.23,0,E1
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,1,55.08,0,E6
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Siempre debe ser entero.,short_text_1sent,medium,2,9.52,0,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Las de clase usan static,short_text_1sent,hard,2,28.8,0,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,2,12.83,0,E2
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable es un método.,short_text_1sent,easy,3,13.51,1,E1
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Siempre debe ser entero.,short_text_1sent,medium,3,53.14,0,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,50.59,1,E2
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Inicializar no necesita valor.,short_text_1sent,medium,1,35.84,1,E2
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,42.38,0,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,final,short_text_1sent,hard,2,20.18,0,OK
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,No existe diferencia entre local y global.,short_text_1sent,medium,1,13.77,0,E6
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,El tipo de dato no importa.,short_text_1sent,medium,1,58.57,1,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,1,11.36,0,E4
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,2,9.43,1,E2
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Una variable puede empezar por número.,short_text_1sent,hard,1,21.93,1,E4
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,2,56.84,0,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,El resultado es 3.,short_text_1sent,medium,1,43.52,0,E5
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable puede empezar por número.,short_text_1sent,hard,3,39.47,1,E4
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,2,11.67,0,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,"int x = 1, y = 2;",short_text_1sent,medium,3,38.1,1,OK
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Es 32 bits,short_text_1sent,easy,1,32.19,0,OK
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Inicializar no necesita valor.,short_text_1sent,easy,3,20.39,0,E2
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,hard,3,49.28,0,E2
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,La respuesta es -128 a 127,short_text_1sent,medium,2,33.19,0,OK
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,33.23,0,E6
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Puede llamarse con símbolos raros.,short_text_1sent,easy,3,25.21,0,E4
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Un tipo de dato de objeto,short_text_1sent,medium,1,54.74,1,OK
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,No existe diferencia entre local y global.,short_text_1sent,hard,1,34.81,1,E6
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,ad,short_text_1sent,easy,1,47.21,0,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,57.27,0,E5
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,3,18.82,1,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Siempre debe ser entero.,short_text_1sent,hard,2,52.66,0,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,asd,short_text_1sent,easy,1,59.59,1,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Siempre debe ser entero.,short_text_1sent,easy,2,41.97,0,E3
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,El tipo de dato no importa.,short_text_1sent,hard,1,34.48,1,E3
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Inicializar no necesita valor.,short_text_1sent,easy,2,24.04,0,E2
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,asd,short_text_1sent,easy,2,7.7,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,3,8.35,0,E2
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,No existe diferencia entre local y global.,short_text_1sent,easy,2,40.28,0,E6
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,3,28.4,1,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,1,42.51,0,E5
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,El tipo de dato no importa.,short_text_1sent,easy,1,34.03,1,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,asd,short_text_1sent,easy,2,5.29,0,E1
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El tipo de dato no importa.,short_text_1sent,easy,1,24.13,1,E3
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,1,38.4,1,E5
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,La variable no cambia después de la operación.,short_text_1sent,hard,3,5.03,0,E5
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable es un método.,short_text_1sent,easy,2,6.16,0,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,3,48.19,0,E5
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,7.97,1,E6
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Puede llamarse con símbolos raros.,short_text_1sent,easy,3,9.41,1,E4
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,"int x = 1, y = 2;",short_text_1sent,medium,2,23.47,0,OK
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable es una función.,short_text_1sent,easy,3,54.16,0,E1
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable local siempre modifica la global.,short_text_1sent,hard,1,36.33,0,E6
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,1,36.42,0,E6
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Una variable local siempre modifica la global.,short_text_1sent,hard,3,40.86,0,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Todas las variables son globales.,short_text_1sent,hard,3,51.16,1,E6
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,double d = 5;,short_text_1sent,easy,3,31.29,1,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,2,36.7,0,E2
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,3,17.81,1,E2
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,28.68,1,E2
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,3,22.58,1,E2
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,error,short_text_1sent,easy,1,59.59,0,E1
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Inicializar no necesita valor.,short_text_1sent,hard,1,47.32,1,E2
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Inicializar no necesita valor.,short_text_1sent,medium,2,29.02,0,E2
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Es Un tipo de dato de objeto,short_text_1sent,medium,1,9.33,0,OK
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Todo valor debe ser string.,short_text_1sent,medium,3,23.97,1,E3
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Es Se genera un error de compilación,short_text_1sent,hard,2,22.69,1,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,10.16,1,E2
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,La variable no cambia después de la operación.,short_text_1sent,easy,2,52.49,1,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,No existe diferencia entre local y global.,short_text_1sent,hard,1,57.9,0,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable es una instrucción que ejecuta código.,short_text_1sent,hard,1,32.3,0,E1
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable puede empezar por número.,short_text_1sent,easy,3,36.62,1,E4
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Todo valor debe ser string.,short_text_1sent,easy,2,57.79,1,E3
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,2,13.47,1,E6
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Una variable es un método.,short_text_1sent,easy,1,32.74,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Una variable es una función.,short_text_1sent,easy,1,46.86,1,E1
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Una variable puede empezar por número.,short_text_1sent,medium,3,43.69,0,E4
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,sdsd,short_text_1sent,easy,2,29.81,0,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,17.17,1,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,El resultado es 3.,short_text_1sent,hard,2,46.36,1,E5
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,1,35.18,1,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,El resultado es 3.,short_text_1sent,easy,2,20.42,1,E5
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Puede llamarse con símbolos raros.,short_text_1sent,easy,3,43.71,0,E4
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Puede llamarse con símbolos raros.,short_text_1sent,easy,1,53.56,0,E4
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Puede llamarse con símbolos raros.,short_text_1sent,hard,2,22.71,1,E4
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Puede llamarse con símbolos raros.,short_text_1sent,easy,2,47.59,0,E4
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Puede llamarse con símbolos raros.,short_text_1sent,hard,3,49.14,1,E4
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,51.57,0,E2
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Una variable puede empezar por número.,short_text_1sent,easy,3,23.6,1,E4
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Es Se genera un error de compilación,short_text_1sent,hard,1,52.47,1,OK
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Es final,short_text_1sent,hard,3,48.8,1,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,sdsd,short_text_1sent,easy,3,25.49,1,E1
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Siempre debe ser entero.,short_text_1sent,easy,2,44.06,0,E3
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Todo valor debe ser string.,short_text_1sent,easy,3,36.16,1,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,1,58.63,0,E6
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,hard,2,38.37,1,E5
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Inicializar no necesita valor.,short_text_1sent,easy,2,6.81,1,E2
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Es private,short_text_1sent,easy,2,38.81,1,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Inicializar no necesita valor.,short_text_1sent,easy,3,46.63,0,E2
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El resultado es 3.,short_text_1sent,hard,1,44.43,1,E5
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Una variable es un método.,short_text_1sent,medium,1,55.2,1,E1
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,2,25.67,0,E2
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,3,17.05,1,E5
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,La respuesta es 2,short_text_1sent,medium,1,49.26,1,OK
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,error,short_text_1sent,medium,2,30.96,1,E1
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El resultado es 3.,short_text_1sent,easy,1,30.1,1,E5
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El tipo de dato no importa.,short_text_1sent,hard,3,9.98,0,E3
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,44.64,0,E4
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Es char c = 'a';,short_text_1sent,easy,1,50.44,1,OK
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Todas las variables son globales.,short_text_1sent,medium,2,57.4,1,E6
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,El resultado es 3.,short_text_1sent,medium,2,51.25,1,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,sdsd,short_text_1sent,medium,2,40.89,0,E1
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Una variable puede empezar por número.,short_text_1sent,medium,2,23.93,1,E4
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Siempre debe ser entero.,short_text_1sent,easy,2,27.13,0,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,1,21.73,1,E4
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El resultado es 3.,short_text_1sent,hard,2,46.41,1,E5
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,El tipo de dato no importa.,short_text_1sent,medium,3,26.65,0,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Puede llamarse con símbolos raros.,short_text_1sent,easy,1,55.36,1,E4
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,no sé,short_text_1sent,hard,1,9.91,1,E1
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Puede llamarse con símbolos raros.,short_text_1sent,easy,2,25.53,0,E4
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable es un método.,short_text_1sent,hard,2,26.91,0,E1
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El nombre no necesita tener significado.,short_text_1sent,hard,1,8.83,0,E4
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El tipo de dato no importa.,short_text_1sent,hard,3,20.99,0,E3
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,El resultado es 3.,short_text_1sent,medium,1,11.82,0,E5
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,La respuesta es 2,short_text_1sent,medium,2,36.07,0,OK
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El resultado es 3.,short_text_1sent,hard,3,32.81,0,E5
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Todo valor debe ser string.,short_text_1sent,easy,2,13.38,0,E3
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,"Es int x = 1, y = 2;",short_text_1sent,medium,1,8.35,0,OK
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,ad,short_text_1sent,hard,2,59.51,1,E1
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Todas las variables son globales.,short_text_1sent,medium,2,22.35,0,E6
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,2,6.53,1,E6
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,32.21,1,E5
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,1,34.09,0,E6
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Inicializar no necesita valor.,short_text_1sent,medium,1,32.4,0,E2
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Todo valor debe ser string.,short_text_1sent,easy,1,7.85,1,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,La variable no cambia después de la operación.,short_text_1sent,hard,1,53.09,1,E5
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Siempre debe ser entero.,short_text_1sent,medium,2,13.76,0,E3
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Es char c = 'a';,short_text_1sent,easy,1,16.08,1,OK
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Todo valor debe ser string.,short_text_1sent,easy,3,53.53,0,E3
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,La variable no cambia después de la operación.,short_text_1sent,medium,2,52.95,1,E5
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,2,24.57,1,E4
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,La variable no cambia después de la operación.,short_text_1sent,easy,3,47.96,1,E5
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,3,58.13,0,E2
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Todas las variables son globales.,short_text_1sent,easy,3,17.52,0,E6
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,La variable no cambia después de la operación.,short_text_1sent,easy,2,39.84,1,E5
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Siempre debe ser entero.,short_text_1sent,easy,2,5.17,1,E3
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Inicializar no necesita valor.,short_text_1sent,easy,1,39.84,1,E2
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,La variable no cambia después de la operación.,short_text_1sent,easy,1,13.52,0,E5
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,3,58.55,0,E6
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Siempre debe ser entero.,short_text_1sent,easy,3,41.33,1,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,2,20.88,0,E4
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,2,9.2,1,E2
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Es double d = 5;,short_text_1sent,easy,1,26.21,1,OK
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Error de compilación,short_text_1sent,medium,2,12.75,1,OK
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Una variable local siempre modifica la global.,short_text_1sent,hard,2,45.49,1,E6
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,hard,1,59.88,0,E2
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El tipo de dato no importa.,short_text_1sent,easy,2,24.77,0,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,Todo valor debe ser string.,short_text_1sent,hard,3,5.45,0,E3
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El resultado es 3.,short_text_1sent,easy,2,58.1,0,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El tipo de dato no importa.,short_text_1sent,hard,3,13.67,0,E3
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,3,29.63,1,E5
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,La respuesta es double,short_text_1sent,easy,1,39.05,0,OK
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,La variable no cambia después de la operación.,short_text_1sent,hard,1,40.13,0,E5
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,El tipo de dato no importa.,short_text_1sent,easy,2,43.86,1,E3
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Es Se genera un error de compilación,short_text_1sent,hard,3,24.73,0,OK
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,No existe diferencia entre local y global.,short_text_1sent,medium,2,17.79,0,E6
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Todas las variables son globales.,short_text_1sent,easy,3,29.25,0,E6
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,1,52.08,1,E5
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,2,38.0,0,E5
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,1,28.71,0,E4
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,No existe diferencia entre local y global.,short_text_1sent,medium,3,12.88,0,E6
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Una variable puede empezar por número.,short_text_1sent,easy,3,13.56,0,E4
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,1,10.03,1,E4
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Inicializar no necesita valor.,short_text_1sent,medium,1,24.37,0,E2
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,sdsd,short_text_1sent,easy,1,16.54,0,E1
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,El tipo de dato no importa.,short_text_1sent,hard,2,28.18,1,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El resultado es 3.,short_text_1sent,hard,1,12.53,1,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Es Un tipo de dato de objeto,short_text_1sent,medium,1,51.57,0,OK
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,La respuesta es Error de compilación,short_text_1sent,medium,1,36.35,1,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Una variable es una función.,short_text_1sent,easy,2,40.59,0,E1
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,no entiendo,short_text_1sent,medium,1,37.01,0,E1
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,no sé,short_text_1sent,medium,2,33.04,0,E1
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Inicializar no necesita valor.,short_text_1sent,medium,2,28.19,1,E2
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,El resultado se mantiene igual que al inicio.,short_text_1sent,hard,2,24.64,0,E5
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,La respuesta es Las de clase usan static,short_text_1sent,hard,3,8.18,1,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,double,short_text_1sent,easy,2,39.85,0,OK
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,3,49.61,1,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El nombre no necesita tener significado.,short_text_1sent,medium,1,46.21,0,E4
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Todas las variables son globales.,short_text_1sent,easy,1,56.93,1,E6
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Siempre debe ser entero.,short_text_1sent,medium,2,18.71,1,E3
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,easy,1,30.14,1,E2
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,hard,1,25.82,1,E2
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,Una variable puede empezar por número.,short_text_1sent,medium,1,29.73,0,E4
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,error,short_text_1sent,medium,1,52.25,0,E1
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,private,short_text_1sent,easy,1,45.0,0,OK
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,28.83,0,E6
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El resultado es 3.,short_text_1sent,easy,1,53.47,1,E5
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,Siempre debe ser entero.,short_text_1sent,hard,1,20.06,1,E3
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Puede llamarse con símbolos raros.,short_text_1sent,easy,2,53.16,0,E4
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,final,short_text_1sent,easy,3,7.93,1,OK
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,-128 a 127,short_text_1sent,medium,3,53.83,0,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,2,19.89,0,E6
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Es false,short_text_1sent,easy,2,53.1,0,OK
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,El tipo de dato no importa.,short_text_1sent,easy,2,49.15,0,E3
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,Siempre debe ser entero.,short_text_1sent,easy,3,47.41,0,E3
+synthetic,synthetic,,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,medium,3,18.24,1,E5
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,3,20.67,1,E2
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Siempre debe ser entero.,short_text_1sent,medium,3,50.23,0,E3
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Todas las variables son globales.,short_text_1sent,medium,3,19.79,0,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,La variable no cambia después de la operación.,short_text_1sent,medium,2,31.42,1,E5
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,-128 a 127,short_text_1sent,medium,2,25.2,1,OK
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,El tipo de dato no importa.,short_text_1sent,easy,2,50.84,0,E3
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,El tipo de dato no importa.,short_text_1sent,medium,3,51.56,0,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,La respuesta es false,short_text_1sent,easy,1,29.23,0,OK
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Siempre debe ser entero.,short_text_1sent,medium,1,55.15,0,E3
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,no se,short_text_1sent,medium,2,32.66,0,E1
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El tipo de dato no importa.,short_text_1sent,easy,3,20.14,0,E3
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Inicializar no necesita valor.,short_text_1sent,medium,1,51.7,0,E2
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,Puede llamarse con símbolos raros.,short_text_1sent,medium,1,28.19,0,E4
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,ad,short_text_1sent,easy,1,26.43,0,E1
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,no se,short_text_1sent,medium,1,12.98,0,E1
+synthetic,synthetic,,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,El nombre no necesita tener significado.,short_text_1sent,hard,2,22.65,0,E4
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,Todo valor debe ser string.,short_text_1sent,easy,2,34.98,0,E3
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,1,27.64,0,E6
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,medium,1,43.09,1,E2
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,La respuesta es private,short_text_1sent,easy,1,59.88,1,OK
+synthetic,synthetic,,VARS_007,¿Qué tipo de variable es String en Java?,Todas las variables son globales.,short_text_1sent,medium,1,18.34,1,E6
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,asd,short_text_1sent,easy,2,28.38,0,E1
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Declarar e inicializar son exactamente lo mismo.,short_text_1sent,medium,2,41.61,0,E2
+synthetic,synthetic,,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,Una variable local siempre modifica la global.,short_text_1sent,medium,3,53.18,1,E6
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,No existe diferencia entre local y global.,short_text_1sent,easy,3,13.27,1,E6
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,no se,short_text_1sent,hard,2,23.38,1,E1
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Una variable puede empezar por número.,short_text_1sent,easy,3,27.08,1,E4
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,1,15.97,1,E4
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El nombre no necesita tener significado.,short_text_1sent,easy,3,53.61,1,E4
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Inicializar no necesita valor.,short_text_1sent,easy,2,41.06,0,E2
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,Siempre debe ser entero.,short_text_1sent,easy,2,45.72,1,E3
+synthetic,synthetic,,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,false,short_text_1sent,easy,2,57.91,1,OK
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El resultado es 3.,short_text_1sent,hard,2,13.59,1,E5
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,El resultado es 3.,short_text_1sent,medium,3,9.95,0,E5
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,No existe diferencia entre local y global.,short_text_1sent,easy,1,29.46,0,E6
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,3,52.42,0,E5
+synthetic,synthetic,,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,Todo valor debe ser string.,short_text_1sent,easy,3,52.05,1,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,El nombre no necesita tener significado.,short_text_1sent,hard,2,52.93,0,E4
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,El tipo de dato no importa.,short_text_1sent,medium,1,50.47,0,E3
+synthetic,synthetic,,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,asd,short_text_1sent,hard,2,20.39,0,E1
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Todo valor debe ser string.,short_text_1sent,easy,1,55.29,0,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,Todo valor debe ser string.,short_text_1sent,easy,1,49.7,1,E3
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,El resultado es 3.,short_text_1sent,easy,3,57.14,0,E5
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,La respuesta es final,short_text_1sent,easy,1,25.71,1,OK
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,no entiendo,short_text_1sent,easy,2,17.51,0,E1
+synthetic,synthetic,,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,El resultado se mantiene igual que al inicio.,short_text_1sent,easy,2,17.76,1,E5
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,No existe diferencia entre local y global.,short_text_1sent,medium,3,19.49,0,E6
+synthetic,synthetic,,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,El tipo de dato no importa.,short_text_1sent,easy,2,31.2,0,E3
+synthetic,synthetic,,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,Una variable puede empezar por número.,short_text_1sent,hard,3,38.69,0,E4
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El tipo de dato no importa.,short_text_1sent,easy,2,54.69,0,E3
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Asignar es solo escribir el nombre de la variable.,short_text_1sent,easy,1,10.71,0,E2
+synthetic,synthetic,,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,La respuesta es -128 a 127,short_text_1sent,medium,1,45.44,0,OK
+synthetic,synthetic,,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,El tipo de dato no importa.,short_text_1sent,easy,3,51.54,1,E3
+synthetic,synthetic,,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,Una variable local siempre modifica la global.,short_text_1sent,easy,1,14.68,0,E6
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,El nombre no necesita tener significado.,short_text_1sent,medium,2,30.83,0,E4
+synthetic,synthetic,,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,Error de compilación,short_text_1sent,medium,3,39.36,0,OK
+synthetic,synthetic,,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,no se,short_text_1sent,easy,3,43.12,0,E1

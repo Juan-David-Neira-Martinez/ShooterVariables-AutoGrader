@@ -1,0 +1,16 @@
+component_id,item_id,prompt,answer_type,difficulty,correct_answer
+44076958,VARS_001,¿Cuál es la forma correcta de inicializar una variable double con el valor 5?,short_text_1sent,easy,double d = 5;
+111548234,VARS_002,¿Qué modificador de acceso permite que una variable sea accesible solo dentro de la misma clase?,short_text_1sent,easy,private
+168608931,VARS_003,¿Cuál de las siguientes es una declaración correcta de una variable de tipo char en Java?,short_text_1sent,easy,char c = 'a';
+573510046,VARS_004,¿Qué tipo de error se produce si se intenta acceder a una variable local no inicializada en Java?,short_text_1sent,hard,Se genera un error de compilación
+689958129,VARS_005,¿Qué sucede si se intenta modificar una variable final en Java después de haber sido inicializada?,short_text_1sent,medium,Error de compilación
+750698589,VARS_006,¿Qué palabra clave se utiliza para evitar que una variable de clase se sobrescriba en una subclase?,short_text_1sent,hard,final
+772652728,VARS_007,¿Qué tipo de variable es String en Java?,short_text_1sent,medium,Un tipo de dato de objeto
+776443228,VARS_008,¿Cuál es la diferencia principal entre variables de instancia y de clase en Java?,short_text_1sent,hard,Las de clase usan static
+821756145,VARS_009,¿Cuál es el tipo de dato por defecto para números decimales en Java?,short_text_1sent,easy,double
+1289565367,VARS_010,¿Cuál es el valor por defecto de una variable de tipo boolean en Java?,short_text_1sent,easy,false
+1680568769,VARS_011,¿Cuál es el rango de valores que puede almacenar una variable de tipo byte en Java?,short_text_1sent,medium,-128 a 127
+1763892994,VARS_012,¿Cuál es el tamaño en bits de una variable de tipo int en Java?,short_text_1sent,easy,32 bits
+1790612075,VARS_013,¿Cuál es el resultado de int x = 5 / 2; System.out.println(x); en Java?,short_text_1sent,medium,2
+2069477467,VARS_014,¿Cómo se pueden declarar múltiples variables de tipo int en una sola línea en Java?,short_text_1sent,medium,"int x = 1, y = 2;"
+1839104856,VARS_015,¿Qué palabra clave se utiliza para declarar una constante en Java?,short_text_1sent,easy,final
